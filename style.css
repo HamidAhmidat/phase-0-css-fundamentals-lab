@@ -1,5 +1,38 @@
 body {
+  background-color: lightgrey;
   width: 100%;
   height: 100%;
   margin: 0;
+}
+h1 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  text-align: center;
+}
+nav a {
+  background-color: rgb(190, 250, 210);
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+figure > figcaption {
+  font-size: small;
+  text-align: center;
+}
+section#featured-property > p {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section#details > div {
+  text-align: center;
+  background-color: lightcoral;
+  float: left;
+  width: 25%;
 }
